@@ -1,0 +1,86 @@
+{
+    "active": ["siconc", "siconc585"],
+    "btnConfigList": [
+        {
+            "label": "植被",
+            "value": "vegetation",
+            "icon":"image/icon16.png",
+            "child": [
+                {
+                    "label": "树",
+                    "value": "tree",
+                    "icon":"image/icon13.png",
+                    "child": [
+                        {
+                            "label": "低排放",
+                            "icon":"image/icon13.png",
+                            "value": "tree126"
+                        },
+                        {
+                            "label": "高排放",
+                            "icon":"image/icon13.png",
+                            "value": "tree585"
+                        }
+                    ]
+                },
+                {
+                    "label": "草",
+                    "value": "grass",
+                    "child": [
+                        {
+                            "label": "低排放",
+                            "icon":"image/icon13.png",
+                            "value": "grass126"
+                        },
+                        {
+                            "label": "高排放",
+                            "icon":"image/icon13.png",
+                            "value": "grass585"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "海温",
+            "value": "tos",
+            "icon":"image/icon17.png",
+            "child": [
+                {
+                    "label": "高排放",
+                    "icon":"image/icon13.png",
+                    "value": "tos585"
+                }
+            ]
+        },
+        {
+            "label": "海冰",
+            "value": "siconc",
+            "icon":"image/icon15.png",
+            "child": [
+                {
+                    "label": "高排放",
+                    "icon":"image/icon13.png",
+                    "value": "siconc585"
+                }
+            ]
+        },
+        {
+            "label": "气温",
+            "value": "tas",
+            "icon":"image/icon18.png",
+            "child": [
+                {
+                    "label": "高排放",
+                    "icon":"image/icon13.png",
+                    "value": "tas585"
+                },
+                {
+                    "label": "高排放(气温异常)",
+                    "icon":"image/icon13.png",
+                    "value": "tas585anomaly"
+                }
+            ]
+        }
+    ]
+}
