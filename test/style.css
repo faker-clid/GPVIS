@@ -1,0 +1,26 @@
+/* custom.css */
+.fas {
+    margin-right: 5px;
+}
+
+.dbc .dropdown-menu {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.dbc .nav-link {
+    color: #333;
+    padding: 10px 15px;
+}
+
+.dbc .nav-link:hover, .dbc .dropdown-item:hover {
+    background-color: #f8f8f9;
+}
+
+.dbc .nav-item .dropdown-toggle::after {
+    margin-left: 10px;
+}
+
+.dbc .dropdown-item {
+    padding: 8px 20px;
+}
